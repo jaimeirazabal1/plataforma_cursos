@@ -23,7 +23,9 @@
 	top: 0px;
 	left: 0px;
 	text-align: left;
-}
+/*	background: #7f5c9e;
+	opacity: 0.4;
+*/}
 
 .da-slide-current {
 	z-index: 1000;
@@ -59,7 +61,7 @@
 }
 
 .da-slide h2 {
-	color: #fff;
+	color: #6d30ab;
 	font-size: 54px;
 	width: 80%;
 	top: 0px;
@@ -69,15 +71,19 @@
 	font-weight: normal;
 }
 
-.da-slide p {
+.nav .active a{
+	color:#4c1e79 !important;
+}
+.da-slide p ,.da-slide p a{
 	width: 80%;
 	top: 115px;
-	color: #fff;
-	font-size: 24px;
+	color: #ffcc00;
+	font-size: 35px;
 	line-height: 26px;
 	height: 80px;
 	overflow: hidden;
-	font-weight: 400;
+	font-weight: bold;
+		text-shadow: 2px 2px 8px black;
 }
 
 .da-slide .da-img {
@@ -126,7 +132,7 @@
 		background: #fff;
 		margin: 3px;
 		cursor: pointer;
-		box-shadow: 1px 1px 1px rgba(0,0,0,0.1) inset, 1px 1px 1px rgba(255,255,255,0.1);
+		/*box-shadow: 1px 1px 1px rgba(0,0,0,0.1) inset, 1px 1px 1px rgba(255,255,255,0.1);*/
 	}
 
 		.da-dots span.da-dots-current:after {
